@@ -6,5 +6,7 @@ target 'TestSqlDatabase' do
   use_frameworks!
 
   # Pods for TestSqlDatabase
+
 	pod 'SQLite.swift', '~> 0.12.0'
+
 end

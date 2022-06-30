@@ -19,19 +19,12 @@ struct ContentView: View {
     
     // array of user models
     @State var noteModels: [NoteModel] = []
-    
+
+
     var body: some View {
-        ZStack {
-            
-            LinearGradient(gradient: Gradient(colors :[Color.red , Color.white , Color.blue]), startPoint: .leading, endPoint: .trailing)
-            
-        }
-        
+ 
         // create list view to show all users
         List (self.noteModels) { (model) in
-            ZStack {
-                Color(.red).edgesIgnoringSafeArea(.all)
-            }
             
             // show name, email and age horizontally
             HStack {
@@ -76,32 +69,37 @@ struct ContentView: View {
         
         // create navigation view
         NavigationView {
-            VStack {
+            HStack {
                 // create link to add user
-                HStack {
+                //HStack {
                     Spacer()
                     NavigationLink (destination: AddNoteView(), label: {
-                        Text("Add user")
+                        Text("Add Note")
                     })
                     
                     // navigation link to go to edit user view
                     NavigationLink (destination: EditNoteView(id: self.$selectedNoteId), isActive: self.$noteSelected) {
-                        EmptyView()
+                        
                     }
                     
-                }
-         
+                //}
                 // list view goes here
-         
             }.padding()
-            .navigationBarTitle("SQLite")
+                
+                .navigationTitle("Note")
             // load data in user models array
             .onAppear(perform: {
                 self.noteModels = DB_Manager().getNotes()
             })
-        }
+        }.frame(width: 150, height: 150)
         
     }
+    
+    init() {
+        UITableView.appearance().backgroundColor = .yellow
+        
+    }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
