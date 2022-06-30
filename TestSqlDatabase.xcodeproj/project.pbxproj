@@ -15,7 +15,7 @@
 		CE7F29E0286DD54300404CDA /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F29DF286DD54300404CDA /* DBManager.swift */; };
 		CE7F29E2286DD80100404CDA /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F29E1286DD80100404CDA /* UserModel.swift */; };
 		CE7F29E4286DE61900404CDA /* AddNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F29E3286DE61900404CDA /* AddNoteView.swift */; };
-		CE7F29EA286DF11300404CDA /* EditNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F29E9286DF11300404CDA /* EditNoteView.swift */; };
+		CE7F29EC286DF1CB00404CDA /* EditNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F29EB286DF1CB00404CDA /* EditNoteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,7 @@
 		CE7F29DF286DD54300404CDA /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		CE7F29E1286DD80100404CDA /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		CE7F29E3286DE61900404CDA /* AddNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteView.swift; sourceTree = "<group>"; };
-		CE7F29E9286DF11300404CDA /* EditNoteView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditNoteView.swift; sourceTree = "<group>"; };
+		CE7F29EB286DF1CB00404CDA /* EditNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNoteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +83,9 @@
 		CE3AE675286DD29F007EC0F0 /* TestSqlDatabase */ = {
 			isa = PBXGroup;
 			children = (
-				CE7F29E9286DF11300404CDA /* EditNoteView.swift */,
 				CE3AE676286DD29F007EC0F0 /* TestSqlDatabaseApp.swift */,
 				CE3AE678286DD29F007EC0F0 /* ContentView.swift */,
+				CE7F29EB286DF1CB00404CDA /* EditNoteView.swift */,
 				CE7F29E3286DE61900404CDA /* AddNoteView.swift */,
 				CE7F29DF286DD54300404CDA /* DBManager.swift */,
 				CE7F29E1286DD80100404CDA /* UserModel.swift */,
@@ -221,7 +221,7 @@
 				CE7F29E0286DD54300404CDA /* DBManager.swift in Sources */,
 				CE7F29E2286DD80100404CDA /* UserModel.swift in Sources */,
 				CE3AE677286DD29F007EC0F0 /* TestSqlDatabaseApp.swift in Sources */,
-				CE7F29EA286DF11300404CDA /* EditNoteView.swift in Sources */,
+				CE7F29EC286DF1CB00404CDA /* EditNoteView.swift in Sources */,
 				CE7F29E4286DE61900404CDA /* AddNoteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
