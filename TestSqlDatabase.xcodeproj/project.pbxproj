@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		549F766C8B3E4E45D0FC9BE7 /* Pods_TestSqlDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD340C6AB558B378072D7737 /* Pods_TestSqlDatabase.framework */; };
 		CE3AE677286DD29F007EC0F0 /* TestSqlDatabaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3AE676286DD29F007EC0F0 /* TestSqlDatabaseApp.swift */; };
 		CE3AE679286DD29F007EC0F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3AE678286DD29F007EC0F0 /* ContentView.swift */; };
 		CE3AE67B286DD2A6007EC0F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3AE67A286DD2A6007EC0F0 /* Assets.xcassets */; };
 		CE3AE67E286DD2A6007EC0F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3AE67D286DD2A6007EC0F0 /* Preview Assets.xcassets */; };
+		CE7F29E0286DD54300404CDA /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F29DF286DD54300404CDA /* DBManager.swift */; };
+		CE7F29E2286DD80100404CDA /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F29E1286DD80100404CDA /* UserModel.swift */; };
+		CE7F29E4286DE61900404CDA /* AddNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F29E3286DE61900404CDA /* AddNoteView.swift */; };
+		CE7F29E6286DE6DD00404CDA /* EditNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7F29E5286DE6DD00404CDA /* EditNoteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E606E3EAA0E7CEE5E2D5B87 /* Pods-TestSqlDatabase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSqlDatabase.debug.xcconfig"; path = "Target Support Files/Pods-TestSqlDatabase/Pods-TestSqlDatabase.debug.xcconfig"; sourceTree = "<group>"; };
+		4FC20E283916D044CE74FE79 /* Pods-TestSqlDatabase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestSqlDatabase.release.xcconfig"; path = "Target Support Files/Pods-TestSqlDatabase/Pods-TestSqlDatabase.release.xcconfig"; sourceTree = "<group>"; };
+		AD340C6AB558B378072D7737 /* Pods_TestSqlDatabase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestSqlDatabase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3AE673286DD29F007EC0F0 /* TestSqlDatabase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSqlDatabase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3AE676286DD29F007EC0F0 /* TestSqlDatabaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSqlDatabaseApp.swift; sourceTree = "<group>"; };
 		CE3AE678286DD29F007EC0F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE3AE67A286DD2A6007EC0F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE3AE67D286DD2A6007EC0F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE7F29DF286DD54300404CDA /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		CE7F29E1286DD80100404CDA /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		CE7F29E3286DE61900404CDA /* AddNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteView.swift; sourceTree = "<group>"; };
+		CE7F29E5286DE6DD00404CDA /* EditNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EditNoteView.swift; path = /Users/user/Desktop/progetti/TestSqlDatabase/TestSqlDatabase/EditNoteView.swift; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +38,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				549F766C8B3E4E45D0FC9BE7 /* Pods_TestSqlDatabase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D960E166E455FACFEF3D06F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E606E3EAA0E7CEE5E2D5B87 /* Pods-TestSqlDatabase.debug.xcconfig */,
+				4FC20E283916D044CE74FE79 /* Pods-TestSqlDatabase.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9D7DAD1AC38F9A2E34332D2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD340C6AB558B378072D7737 /* Pods_TestSqlDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE3AE66A286DD29F007EC0F0 = {
 			isa = PBXGroup;
 			children = (
 				CE3AE675286DD29F007EC0F0 /* TestSqlDatabase */,
 				CE3AE674286DD29F007EC0F0 /* Products */,
+				7D960E166E455FACFEF3D06F /* Pods */,
+				9D7DAD1AC38F9A2E34332D2C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +83,12 @@
 		CE3AE675286DD29F007EC0F0 /* TestSqlDatabase */ = {
 			isa = PBXGroup;
 			children = (
+				CE7F29E5286DE6DD00404CDA /* EditNoteView.swift */,
 				CE3AE676286DD29F007EC0F0 /* TestSqlDatabaseApp.swift */,
 				CE3AE678286DD29F007EC0F0 /* ContentView.swift */,
+				CE7F29E3286DE61900404CDA /* AddNoteView.swift */,
+				CE7F29DF286DD54300404CDA /* DBManager.swift */,
+				CE7F29E1286DD80100404CDA /* UserModel.swift */,
 				CE3AE67A286DD2A6007EC0F0 /* Assets.xcassets */,
 				CE3AE67C286DD2A6007EC0F0 /* Preview Content */,
 			);
@@ -74,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE3AE681286DD2A6007EC0F0 /* Build configuration list for PBXNativeTarget "TestSqlDatabase" */;
 			buildPhases = (
+				D101C4AD43CDF969B3C50B1C /* [CP] Check Pods Manifest.lock */,
 				CE3AE66F286DD29F007EC0F0 /* Sources */,
 				CE3AE670286DD29F007EC0F0 /* Frameworks */,
 				CE3AE671286DD29F007EC0F0 /* Resources */,
+				76AEEEF6515EAA259FE3B11C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,13 +170,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		76AEEEF6515EAA259FE3B11C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestSqlDatabase/Pods-TestSqlDatabase-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestSqlDatabase/Pods-TestSqlDatabase-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestSqlDatabase/Pods-TestSqlDatabase-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D101C4AD43CDF969B3C50B1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestSqlDatabase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE3AE66F286DD29F007EC0F0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				CE3AE679286DD29F007EC0F0 /* ContentView.swift in Sources */,
+				CE7F29E0286DD54300404CDA /* DBManager.swift in Sources */,
+				CE7F29E2286DD80100404CDA /* UserModel.swift in Sources */,
 				CE3AE677286DD29F007EC0F0 /* TestSqlDatabaseApp.swift in Sources */,
+				CE7F29E6286DE6DD00404CDA /* EditNoteView.swift in Sources */,
+				CE7F29E4286DE61900404CDA /* AddNoteView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +345,7 @@
 		};
 		CE3AE682286DD2A6007EC0F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E606E3EAA0E7CEE5E2D5B87 /* Pods-TestSqlDatabase.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,6 +374,7 @@
 		};
 		CE3AE683286DD2A6007EC0F0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FC20E283916D044CE74FE79 /* Pods-TestSqlDatabase.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
